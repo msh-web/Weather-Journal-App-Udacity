@@ -1,0 +1,156 @@
+/*
+    Making beautiful background for the project page.
+*/
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.B76Hky9BtRAeh_OnpMvDZgHaEo?w=280&h=180&c=7&r=0&o=5&dpr=1.75&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, serif;
+}
+
+#app{
+    
+    width: 100%;
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    color: #ffffff;
+    font-weight: 900;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Adding some styles for the project page content */
+#feelings{
+    height: 60px; 
+}
+#generate{
+    width: 100%;
+    height: 100px;
+   background-color: rgba(255, 255, 255, .1);
+}
+
+.holder{
+background-color: rgba(255, 255, 255, 0.1);
+
+}
+.system {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.holderheadline{
+    margin-top: 80px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 55px;
+}
+.entry{
+    background: rgba(255, 255, 255, 0.1); 
+    height: 240px;
+}
+/* Adding some styles for the information that will appeare to user */
+#name{
+    color:black;
+    font-weight: 600;
+    font-size: 23px;
+}
+#country{
+    color:black;
+    font-weight: 600;
+    font-size: 23px;
+}
+#date{
+    color:black;
+    font-weight: 600;
+    font-size: 23px;
+}
+#temp{
+    color: black;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+#content{
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.title {
+   height: 50px;
+   background-color: rgba(255, 255, 255, 0.1);
+   font-size: 30px;
+}
+
+/* Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    width: 800px;
+    background:rgba(255, 255, 255, 0.1);
+    color: #ff0000;
+    font-size: 21px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, .1);
+    margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #444;
+}
+
+button{
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #444;
+    margin-top: 30px;  
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    width: 800px;
+    background:rgba(255, 255, 255, 0.1);
+    color: #ff0000;
+    font-size: 21px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #444;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #ff0000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: red; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #ff0000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+.zip{
+    background-color: rgba(255, 255,255, 0);
+}

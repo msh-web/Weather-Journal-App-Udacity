@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+   
+<div id = "app">
+  <div class ="holderheadline">
+    Weather Journal App
+  </div>
+  <div class="system">This system is applied within the US.</div>
+  <div class ="holder zip">
+       <label for="zip">Enter any U.S. Zip code here .</label>
+       <input type="text" id="zip" placeholder="Enter zip code here">
+<!--This small element for showing any error made by the user-->       
+       <small id="err"></small>
+  </div>
+  <div class ="holder feel">
+       <label for="feelings">How are you feeling today?</label>
+       <textarea style="height: 100px;"   class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea> 
+  </div>
+<!-- Adding the button here to control it freely.-->
+  <button id="generate" type = "submit"> Generate </button>
+  <div class ="holder entry">
+     <div class = "title">Most Recent Entry</div>
+     <div id = "entryHolder">
+     <div id = "date"></div> 
+     <div id = "temp"></div>
+     <div id = "content"></div>
+<!--Adding the name of the area where we get it's tempreture.-->
+     <div id = "name"></div>
+<!--Adding the country name.-->
+     <div id = "country"></div>
+  </div>
+  </div>
+</div>
+
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
